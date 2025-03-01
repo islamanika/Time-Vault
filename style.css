@@ -7,11 +7,102 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    background-color: #fff;
-    color: #221314;
-    
-    font: 6rem;
-    
+}
+body{
+    background: rgb(223, 166, 169);
+    color: rgb(211, 194, 172);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: ease .40s;
 }
 
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(66, 50, 27);
 
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color:  rgb(211, 194, 172);
+    font-size: 15px;
+    font-weight: 450;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.navbar a:hover{
+    background: rgb(131, 107, 56);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 30px rgb(250, 235, 215 / 20%);
+    border-radius: 4px;
+
+}
+#menu-icon{
+    color: rgb(56, 39, 17);
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+
+}
+
+section{
+    padding: 80px 18%;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img1.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.home-text h1{
+    font-size: 45px;
+    line-height: 1.2;
+    color: antiquewhite;
+    font-family: 'Paytone One' , sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+
+}
+.home-text p{
+
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+.home-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: rgb(131, 107, 56);
+    color: antiquewhite;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.home-btn:hover{
+    background: antiquewhite;
+    transform: scale(1.1);
+    color: rgb(66, 50, 27);
+}
