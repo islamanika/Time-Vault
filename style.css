@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Open Sans' , sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    background-color: #fff;
+    color: #221314;
+    
+    font: 6rem;
+    
+}
+
+
