@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background: rgb(223, 166, 169);
+    background: rgb(250, 235, 215);
     color: rgb(211, 194, 172);
 }
 header{
@@ -105,4 +105,83 @@ section{
     background: antiquewhite;
     transform: scale(1.1);
     color: rgb(66, 50, 27);
+}
+
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 30px;
+    line-height: 1.2;
+    color: rgb(66, 50, 27);
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.thum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+.thum img {
+    width: 700px;  
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+}   
+
+.title h4 {
+    font-size: 15px;
+    line-height: 1.2;
+    color: rgb(219, 201, 178); 
+    background-color: rgb(131, 107, 56); 
+    border: 2px solid rgba(66, 50, 27, 0.6); 
+    padding: 10px 20px; 
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: center; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    font-weight: bold; 
+}
+.title h4:hover {
+    background-color: rgb(92, 70, 42);
+    color: antiquewhite; 
+    cursor: pointer; 
+    transform: scale(1.05);
+    transition: all 0.3s ease; 
+}
+
+.para {
+    padding-top: 50px;
+    background-color: rgb(212, 194, 170); 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: 'Arial', sans-serif; 
+}
+.para p {
+    padding-top: 10px;
+    font-size: 18px; /* Adjust font size for readability */
+    line-height: 1.6; /* Increase line height for better text spacing */
+    color: #333; /* Darker text color for better contrast */
+    text-align: justify; /* Justify the text for a cleaner look */
+    font-weight: normal; /* Regular weight for normal text */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+.para:hover {
+    background-color: rgb(201, 180, 152); /* Slightly darker background on hover */
+    transform: scale(1.02); /* Slight zoom-in effect */
+    transition: all 0.3s ease; /* Smooth transition */
 }
